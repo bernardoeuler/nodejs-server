@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1,
+p {
+    font-family: "roboto";
+    color: #222;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: large;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 50ch;
+}
